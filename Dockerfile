@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     samtools \
+    parallel
 
 
 # Copy your application code into the container
